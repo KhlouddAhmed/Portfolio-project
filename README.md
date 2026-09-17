@@ -18,6 +18,7 @@
   <img src="https://img.shields.io/badge/Responsive-Design-155DFC?style=for-the-badge" alt="Responsive Design" />
   <img src="https://img.shields.io/badge/Dark-Mode-111827?style=for-the-badge" alt="Dark Mode" />
   <img src="https://img.shields.io/badge/Owl-Carousel-5C3EE8?style=for-the-badge" alt="Owl Carousel" />
+  <img src="https://img.shields.io/badge/SweetAlert2-Notifications-FF6384?style=for-the-badge" alt="SweetAlert2" />
 </p>
 
 ---
@@ -30,13 +31,13 @@
 </p>
 
 <p align="center">
-  It was developed as a practical front-end training project with a focus on building
-  responsive layouts using CSS Flexbox, CSS Grid, Bootstrap, and responsive design techniques.
+  It was developed as a practical front-end training project with a strong focus on
+  responsive design, CSS Flexbox, CSS Grid, Bootstrap, JavaScript, and jQuery.
 </p>
 
 <p align="center">
-  The website also includes a Dark Mode feature and interactive carousel sections
-  implemented using jQuery Owl Carousel.
+  The website includes a Dark Mode feature, responsive project carousel, smooth navigation,
+  interactive tooltips, navigation behavior, and client-side contact form validation.
 </p>
 
 ---
@@ -64,7 +65,75 @@
     <td align="center">Interactive responsive carousel</td>
     <td align="center">Responsive utilities and components</td>
   </tr>
+  <tr>
+    <td align="center"><b>Contact Form Validation</b></td>
+    <td align="center"><b>Smooth Scrolling</b></td>
+    <td align="center"><b>Interactive Navigation</b></td>
+  </tr>
+  <tr>
+    <td align="center">Client-side input validation</td>
+    <td align="center">Smooth section navigation</td>
+    <td align="center">Auto-hiding navbar behavior</td>
+  </tr>
+  <tr>
+    <td align="center"><b>SweetAlert2</b></td>
+    <td align="center"><b>Tooltips</b></td>
+    <td align="center"><b>Form Feedback</b></td>
+  </tr>
+  <tr>
+    <td align="center">Success notifications</td>
+    <td align="center">Social link tooltips</td>
+    <td align="center">Valid and invalid input states</td>
+  </tr>
 </table>
+
+---
+
+<h2 align="center">Interactive Features</h2>
+
+<p align="center">
+  <b>Dark Mode</b><br>
+  Users can switch between light and dark themes using the color mode toggle.
+</p>
+
+<p align="center">
+  <b>Responsive Project Carousel</b><br>
+  Project sections use jQuery Owl Carousel to provide an interactive and responsive
+  carousel experience across different screen sizes.
+</p>
+
+<p align="center">
+  <b>Smooth Scrolling</b><br>
+  Navigation links smoothly scroll users to the corresponding sections of the page.
+</p>
+
+<p align="center">
+  <b>Interactive Navigation</b><br>
+  Headroom.js is used to control the navbar behavior while scrolling, providing
+  a cleaner browsing experience.
+</p>
+
+<p align="center">
+  <b>Social Media Tooltips</b><br>
+  Tooltips are displayed when users interact with social media links.
+</p>
+
+<p align="center">
+  <b>Contact Form Validation</b><br>
+  The contact form validates the user's name, email address, subject, and message
+  before allowing the form to be processed.
+</p>
+
+<p align="center">
+  <b>Form Feedback</b><br>
+  Valid and invalid input states are displayed dynamically to provide immediate
+  visual feedback to the user.
+</p>
+
+<p align="center">
+  <b>Success Notification</b><br>
+  SweetAlert2 is used to display a success message after valid form submission.
+</p>
 
 ---
 
@@ -77,7 +146,23 @@
   <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
   <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jquery&logoColor=white" alt="jQuery" />
   <img src="https://img.shields.io/badge/Owl_Carousel-5C3EE8?style=flat-square" alt="Owl Carousel" />
+  <img src="https://img.shields.io/badge/Headroom.js-333333?style=flat-square" alt="Headroom.js" />
+  <img src="https://img.shields.io/badge/SweetAlert2-FF6384?style=flat-square" alt="SweetAlert2" />
   <img src="https://img.shields.io/badge/Font_Awesome-528DD7?style=flat-square&logo=fontawesome&logoColor=white" alt="Font Awesome" />
+</p>
+
+<h3 align="center">Core Technologies</h3>
+
+<p align="center">
+  <b>HTML5</b> — Semantic page structure<br>
+  <b>CSS3</b> — Styling, Flexbox, Grid, animations, and responsive layouts<br>
+  <b>Bootstrap</b> — Responsive layout, utilities, and components<br>
+  <b>JavaScript</b> — Interactive functionality, form validation, and Dark Mode<br>
+  <b>jQuery</b> — DOM manipulation, events, smooth scrolling, and UI interactions<br>
+  <b>Owl Carousel</b> — Responsive project carousel<br>
+  <b>Headroom.js</b> — Dynamic navbar behavior while scrolling<br>
+  <b>SweetAlert2</b> — Success notifications and user feedback<br>
+  <b>Font Awesome</b> — Icons
 </p>
 
 ---
@@ -94,6 +179,29 @@
   and Bootstrap breakpoints.
 </p>
 
+<table align="center">
+  <tr>
+    <th>Device</th>
+    <th>Support</th>
+  </tr>
+  <tr>
+    <td align="center">Mobile</td>
+    <td align="center">Fully Responsive</td>
+  </tr>
+  <tr>
+    <td align="center">Tablet</td>
+    <td align="center">Fully Responsive</td>
+  </tr>
+  <tr>
+    <td align="center">Laptop</td>
+    <td align="center">Fully Responsive</td>
+  </tr>
+  <tr>
+    <td align="center">Desktop</td>
+    <td align="center">Fully Responsive</td>
+  </tr>
+</table>
+
 ---
 
 <h2 align="center">Dark Mode</h2>
@@ -104,23 +212,39 @@
 </p>
 
 <p align="center">
-  The theme switching functionality is implemented using JavaScript.
+  The theme switching functionality is implemented using JavaScript and CSS.
 </p>
 
 ---
 
-<h2 align="center">Owl Carousel</h2>
+<h2 align="center">Contact Form</h2>
 
 <p align="center">
-  jQuery Owl Carousel is used to create interactive and responsive carousel sections.
-  The carousel adapts to different screen sizes for a smooth user experience.
+  The contact form includes client-side validation to ensure that users provide
+  valid and complete information before submission.
+</p>
+
+<p align="center">
+  The form validates the following fields:
+</p>
+
+<p align="center">
+  Full Name &nbsp;•&nbsp;
+  Email Address &nbsp;•&nbsp;
+  Subject &nbsp;•&nbsp;
+  Message
+</p>
+
+<p align="center">
+  Invalid fields receive visual feedback, while valid submissions trigger
+  a SweetAlert2 success notification.
 </p>
 
 ---
 
 <h2 align="center">Project Structure</h2>
 
-```text
+```text id="pf8b3w"
 Portfolio/
 │
 ├── index.html
@@ -131,7 +255,8 @@ Portfolio/
 ├── js/
 │   └── script.js
 │
-├── images/
+├── assets/
+│   ├── images/
 │   └── ...
 │
 └── README.md
@@ -161,7 +286,14 @@ Portfolio/
 <p align="center">
   jQuery &nbsp;•&nbsp;
   Dark Mode &nbsp;•&nbsp;
-  Owl Carousel &nbsp;•&nbsp;
+  Form Validation &nbsp;•&nbsp;
+  Owl Carousel
+</p>
+
+<p align="center">
+  Headroom.js &nbsp;•&nbsp;
+  SweetAlert2 &nbsp;•&nbsp;
+  Tooltips &nbsp;•&nbsp;
   UI Development
 </p>
 
@@ -187,8 +319,14 @@ git clone <repository-url>
 
 <p align="center">
   This project was developed as a practical front-end training project to apply
-  HTML, CSS, JavaScript, Bootstrap, Flexbox, Grid, and responsive design concepts
-  in a complete single-page website.
+  HTML, CSS, JavaScript, Bootstrap, Flexbox, Grid, jQuery, and responsive design
+  concepts in a complete single-page website.
+</p>
+
+<p align="center">
+  The project focuses on translating design concepts into a functional interface
+  while practicing responsive layouts, interactive components, form validation,
+  and modern front-end development techniques.
 </p>
 
 ---

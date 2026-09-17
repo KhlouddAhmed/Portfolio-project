@@ -263,14 +263,16 @@ ul li {
         ===========================  */
 .animated {
     position: relative;
+    white-space: nowrap;
 }
 
 .animated-info {
-    display: inline-block;
+     display: inline-block;
     vertical-align: top;
     margin-top: 5px;
     min-width: 260px;
     position: relative;
+    white-space: nowrap;
 }
 
 .animated-item {
